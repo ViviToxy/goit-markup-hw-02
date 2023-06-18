@@ -157,6 +157,10 @@
             background-color: var(--bg-color);
         }
 
+        .footer-logo-sudio {
+            color: var(--secondary-white-color);
+        }
+
         .footer-text {
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -198,8 +202,6 @@
             letter-spacing: 0.02em;
             color:var(--brand-color);}
 
-        .footer-logo-sudio{
-            color:var(--secondary-white-color);
-        }
+    
 
             
