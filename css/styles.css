@@ -7,14 +7,14 @@
     --secondary-white-color:#F4F4FD;
     --bg-color:#2E2F42;
     --bg-btn-color:#4D5AE5;
-
+    --bg-white-color: #ffffff;
 }
-
-
 
 
 .page {
     font-family: "Roboto", sans-serif;
+    color:var(--brand-color);
+    background-color: var(--bg-white-color);
 }
 
 .list {
@@ -23,18 +23,21 @@
 
      /* Header styles */
          .header-logo {
-            font-family: 'Raleway';
+            font-family:"Raleway",sans-serif;
             font-weight: 800;
             font-size: 18px;
-            line-height: 1.16;
+            line-height: 1.17;
             align-items: center;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: var(--title-color);
+            color: var(--primary-accent-color);
+         }
+         .link{
+            text-decoration: none;
          }
 
-         .header-logo-web{
-            color:var(--primary-accent-color);
+         .header-logo-studio{
+            color:var(--title-color);
          }
     
          .header-link {
@@ -48,6 +51,10 @@
          .header-link:focus{
             color:var(--secondary-accent-color);
          }
+
+         .contacts{
+            font-style:normal;
+         }
     
          .contacts-link {
         line-height: 1.5;
@@ -55,7 +62,7 @@
         color:var(--brand-color);
          }
          .contacts-link:hover,
-         .contact-link:focus{
+         .contacts-link:focus{
             color: var(--secondary-accent-color);
          }
 
@@ -66,7 +73,7 @@
     
         .hero-title {
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color:var(--primary-white-color);
@@ -75,6 +82,11 @@
         .hero-button {
         background-color: var(--bg-btn-color);
         cursor: pointer;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color:var(--primary-white-color)
+
         }
         .hero-button:hover,
         .hero-button:focus{
@@ -114,15 +126,20 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--title-color);
+        background-color: var(--secondary-white-color);
         }
     
         .team-title {
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                text-align: center;
-                letter-spacing: 0.02em;
-                color:var(--title-color);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color:var(--title-color);
+        }
+
+        .team-items{
+            background-color: var(--primary-white-color);
         }
     
         .team-text {
@@ -150,11 +167,13 @@
             letter-spacing: 0.04em;
             color:var(--bg-btn-color);
             cursor: pointer;
+            background-color: var(--secondary-white-color);
         }
 
         .filtr-button:hover,
         .filtr-button:focus{
-            color:var(--secondary-accent-color);
+            color:var(--primary-white-color);
+            background: var(--secondary-accent-color);
         }    
 
         .filtr-title {
