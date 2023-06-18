@@ -1,0 +1,176 @@
+:root{
+    --brand-color:#434455;
+    --primary-white-color: #ffffff;
+    --title-color:#2e2f42;
+    --primary-accent-color:#4D5AE5;
+    --secondary-accent-color:#404BBF;
+    --secondary-white-color:#F4F4FD;
+    --bg-color:#2E2F42;
+    --bg-btn-color:#4D5AE5;
+
+}
+
+
+
+
+.page {
+    font-family: "Roboto", sans-serif;
+}
+
+.list {
+    list-style-type: none;
+}
+
+     /* Header styles */
+         .header-logo {
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.16;
+            align-items: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--title-color);
+         }
+
+         .header-logo-web{
+            color:var(--primary-accent-color);
+         }
+    
+         .header-link {
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--title-color);
+         }
+
+         .header-link:hover,
+         .header-link:focus{
+            color:var(--secondary-accent-color);
+         }
+    
+         .contacts-link {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--brand-color);
+         }
+         .contacts-link:hover,
+         .contact-link:focus{
+            color: var(--secondary-accent-color);
+         }
+
+    /* Hero styles */
+        .hero-section {
+            background-color: var(--bg-color);
+        }
+    
+        .hero-title {
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color:var(--primary-white-color);
+        }
+    
+        .hero-button {
+        background-color: var(--bg-btn-color);
+        cursor: pointer;
+        }
+        .hero-button:hover,
+        .hero-button:focus{
+        background-color:var(--secondary-accent-color);
+        }
+
+    /* Benefits styles */
+        .benefits-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color:var(--title-color);
+        }
+
+        .benefits-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--brand-color);
+        }
+
+    /* Work styles */
+        .work-title{
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color);
+        }
+
+    /* Team styles */
+        .team-headline{
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color);
+        }
+    
+        .team-title {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color:var(--title-color);
+        }
+    
+        .team-text {
+            line-height: 1.5;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color:var(--brand-color);}
+
+        /* Footer styles */
+        .footer {
+            background-color: var(--bg-color);
+        }
+
+        .footer-text {
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color:var(--secondary-white-color);}
+
+
+         /* Portfolio styles */
+        .filtr-button{
+            font-weight: 500;
+            line-height: 1.5;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color:var(--bg-btn-color);
+            cursor: pointer;
+        }
+
+        .filtr-button:hover,
+        .filtr-button:focus{
+            color:var(--secondary-accent-color);
+        }    
+
+        .filtr-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--title-color);
+        }
+
+        .filtr-title:hover,
+        .filtr-title:focus{
+            color: var(--secondary-accent-color);
+        }
+
+        .filtr-text {
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color:var(--brand-color);}
