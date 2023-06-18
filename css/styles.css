@@ -1,4 +1,4 @@
-:root{
+:root {
     --brand-color:#434455;
     --primary-white-color: #ffffff;
     --title-color:#2e2f42;
@@ -157,8 +157,8 @@
             background-color: var(--bg-color);
         }
 
-        .footer-logo-sudio {
-            color: var(--secondary-white-color);
+        .footer-logo-studio {
+            color:var(--secondary-white-color);
         }
 
         .footer-text {
