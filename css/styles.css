@@ -128,6 +128,10 @@
         color: var(--title-color);
         background-color: var(--secondary-white-color);
         }
+
+        .section-team{
+            background-color: var(--secondary-white-color);
+        }
     
         .team-title {
         font-weight: 500;
@@ -193,3 +197,9 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
             color:var(--brand-color);}
+
+        .footer-logo-sudio{
+            color:var(--secondary-white-color);
+        }
+
+            
