@@ -28,7 +28,6 @@
             font-weight: 800;
             font-size: 18px;
             line-height: 1.17;
-            align-items: center;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--primary-accent-color);
@@ -81,11 +80,13 @@
         }
     
         .hero-button {
+        font-family:"Roboto", sans-serif;
         background-color: var(--bg-btn-color);
+        font-size: 16px;
         cursor: pointer;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.04em;
+        letter-spacing:0.04em;
         color:var(--primary-white-color)
 
         }
